@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "中文会话蓝图",
+	"Description": "使用中文蓝图，无门槛！轻松实现多人在线联机游戏的大部分功能，例如邀请好友、创建房间，加入会话等功能",
+	"Category": "中文蓝图",
+	"CreatedBy": "张亮002",
+	"CreatedByURL": "https://space.bilibili.com/22867601",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8e41597ea7594db380c86146f4926951",
+	"SupportURL": "https://space.bilibili.com/22867601",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ChineseSessions",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		}
+	]
+}
